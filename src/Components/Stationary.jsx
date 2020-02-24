@@ -3,13 +3,6 @@ import React, { Component } from 'react';
 let Stationary = (props) => {
     return (
         <React.Fragment>
-            <div className="card text-white bg-secondary mb-3 my-5" style={{ maxWidth: '18rem' }}>
-                <div className="card-header">Header</div>
-                <div className="card-body">
-                    <h5 className="card-title">Secondary card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
             <div className="card mb-3 text-white bg-secondary" style={{ maxWidth: '540px' }}>
                 <div className="row no-gutters">
                     <div className="col-md-4">

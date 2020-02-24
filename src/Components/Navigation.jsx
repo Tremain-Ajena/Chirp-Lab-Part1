@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
 let Navigation = (props) => {
@@ -6,7 +6,7 @@ let Navigation = (props) => {
         <React.Fragment>
             <div>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <a className="navbar-brand" href="http://localhost:3000/?">Navbar</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -14,13 +14,13 @@ let Navigation = (props) => {
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                                <a className="nav-link" href="https://gravity.covalence.io/portal/course/2/121">Home <span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">Link</a>
+                                <a className="nav-link" href="https://www.w3schools.com/">Link</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
+                                <a className="nav-link" href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjvod-ggOvnAhVPh-AKHV-rAfEQPAgH" tabIndex="-1" aria-disabled="true">Help</a>
                             </li>
                         </ul>
                         <form className="form-inline my-2 my-lg-0">
